@@ -1,5 +1,18 @@
+body {
+  background-color: #BDD3E9;
+  color: #3F6992;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
 .lamp {
-  height: 500px;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  width: 50%;
 }
 
 .light {
@@ -9,4 +22,11 @@
 
 .light:hover {
   opacity: 1;
+}
+
+.hello {
+  position: absolute;
+  left: -4%;
+  top: 10%;
+  width: 30%;
 }
